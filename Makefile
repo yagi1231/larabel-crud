@@ -10,3 +10,5 @@ bash-db:
 		docker-compose db bash
 bash-web:
 		docker-compose exec web bash
+build-up:
+		docker-compose up -d --build
